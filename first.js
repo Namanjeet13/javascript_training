@@ -1,2 +1,1 @@
-console.log("Namanjeet");
-console.log("Singh");
+name = "Namanjeet Singh"
