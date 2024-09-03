@@ -8,10 +8,24 @@ let number = studentsMarks.filter((mark) => {
 
 console.log("Students with marks above 90",number); // Output: [92, 95, 98]
 
-// Take a number n as input from user. Create an array of number from 1 to n.
+let n = Number(prompt("Enter a number"));
 
-let n = prompt("Enter a number");
+let numbersArray = [];
 
-let array = 
+for (let i = 1; i <= n; i++) {
+    numbersArray.push(i);
+}
 
-console.log(array);
+console.log(numbersArray);
+
+numbersSum = numbersArray.reduce((prev, currentValue) => {
+    return prev + currentValue;
+})
+
+console.log("Sum of numbers from 1 to", n, "is", numbersSum);
+
+numbersProduct = numbersArray.reduce((prev, currentValue) => {
+    return prev * currentValue;
+});
+
+console.log("Product of numbers from 1 to", n, "is", numbersProduct);
