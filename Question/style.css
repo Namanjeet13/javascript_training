@@ -1,0 +1,11 @@
+.content{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newClass{
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
