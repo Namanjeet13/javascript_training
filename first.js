@@ -1,2 +1,5 @@
-console.log("Namanjeet");
-console.log("Singh");
+function hello() {
+    console.log('Hello');
+}
+
+setTimeout(hello, 5000);
